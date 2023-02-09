@@ -13,8 +13,10 @@
   padding-block-start: 10rem;
 
   .contentContainer {
+    position: relative;
     grid-column: 2/3;
     color: $white-primary;
+    padding-block-end: 480px;
 
     h1 {
       font-weight: 500;
@@ -68,6 +70,32 @@
       font-size: 28px;
       line-height: 39.2px;
       width: 1093px;
+    }
+
+    .musician {
+      position: absolute;
+      right: 0;
+      bottom: 90px;
+    }
+
+    .star {
+      position: absolute;
+      top: 882px;
+      right: -100px;
+    }
+
+    .circleTextContainer{
+        position: absolute;
+        top: 30%;
+        right: 20%;
+
+        .circleText {
+          text {
+            fill: $white-primary;
+            font-size: 22px;
+            letter-spacing: -1px;
+          }
+        }
     }
   }
 }
