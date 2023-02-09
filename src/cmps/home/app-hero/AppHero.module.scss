@@ -1,0 +1,73 @@
+@import "../../../assets/styles/base/typography";
+@import "../../../assets/styles/vars/color";
+@import "../../../assets/styles/mixins/app-layout";
+
+.appHeroContainer {
+  @include app-layout-grid;
+
+  background-color: $black-primary;
+  background-image: url("../../../assets/images/layout/app-hero-pentagon.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 300px;
+  padding-block-start: 10rem;
+
+  .contentContainer {
+    grid-column: 2/3;
+    color: $white-primary;
+
+    h1 {
+      font-weight: 500;
+      font-size: 130px;
+      line-height: 165px;
+      letter-spacing: -1px;
+      margin-block-end: 30px;
+    }
+
+    .mainDescription {
+      font-size: 28px;
+      line-height: 42px;
+      margin-block-end: 60px;
+      width: 721px;
+    }
+
+    button {
+      border: none;
+      background-color: $yellow-primary;
+      color: $black-secondary;
+      padding: 10px 50px;
+      margin-block-end: 280px;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 5;
+
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 84px;
+      margin-block-end: 40px;
+      width: 1096px;
+
+      &::before {
+        position: absolute;
+        top: 30px;
+        left: -90px;
+        z-index: -1;
+
+        display: inline-block;
+        content: " ";
+        background-color: $orange-primary;
+        width: 135px;
+        height: 135px;
+        transform: rotate(-60deg);
+      }
+    }
+
+    .secondaryDescription {
+      font-size: 28px;
+      line-height: 39.2px;
+      width: 1093px;
+    }
+  }
+}

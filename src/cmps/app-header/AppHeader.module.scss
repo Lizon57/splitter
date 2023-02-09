@@ -1,0 +1,41 @@
+@import "../../assets/styles/base/typography";
+@import "../../assets/styles/vars/color";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+
+  border-bottom: 1px solid $gray-secondary;
+  background-color: $black-primary;
+  color: $white-primary;
+  padding-inline: 60px;
+  height: 80px;
+
+  .brand {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .navigationLinksContainer {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.21;
+
+    span:first-of-type {
+      position: relative;
+      margin-inline-end: 66px;
+
+      &::after {
+        content: " ";
+        position: absolute;
+        top: -5px;
+        left: calc(100% + 30px);
+        background-color: $gray-secondary;
+        width: 1px;
+        height: 2rem;
+      }
+    }
+  }
+}

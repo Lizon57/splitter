@@ -1,0 +1,4 @@
+@mixin app-layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1466px 1fr;
+}
