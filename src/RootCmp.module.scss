@@ -1,0 +1,9 @@
+@import "./assets//styles/mixins/app-layout";
+
+.layoutContainer {
+  @include app-layout-grid;
+
+  & > section {
+    grid-column: 2/3;
+  }
+}

@@ -3,19 +3,16 @@
 @import "../../../assets/styles/mixins/app-layout";
 
 .appHeroContainer {
-  @include app-layout-grid;
-
-  background-color: $black-primary;
   background-image: url("../../../assets/images/layout/app-hero-pentagon.png");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 300px;
+  color: $white-primary;
   padding-block-start: 10rem;
 
   .contentContainer {
     position: relative;
     grid-column: 2/3;
-    color: $white-primary;
     padding-block-end: 480px;
 
     h1 {
