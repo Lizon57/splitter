@@ -1,0 +1,59 @@
+@import "../../assets/styles/base/typography";
+@import "../../assets/styles/vars/color";
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: $black-primary;
+  color: $white-primary;
+  padding: 35px 60px;
+
+  .leftSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 50%;
+
+    .brand {
+      font-size: 51px;
+      font-weight: 600;
+    }
+
+    .internalLinks {
+      display: flex;
+      gap: 75px;
+
+      a {
+        color: $white-primary;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .rightSide {
+    display: flex;
+    align-items: center;
+
+    .networksLinks {
+      display: flex;
+      align-items: center;
+      gap: 39px;
+      margin-inline-end: 55px;
+
+      img {
+        display: block;
+      }
+    }
+
+    .copyrights {
+      color: $white-secondary;
+      line-height: 1.5;
+      margin-inline-end: 66px;
+    }
+
+    .option {
+    }
+  }
+}
