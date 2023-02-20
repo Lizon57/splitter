@@ -1,0 +1,9 @@
+@import "../../../assets/styles/vars/color";
+
+.button {
+  border: none;
+  background-color: $yellow-primary;
+  color: $black-secondary;
+  padding: 18px 102px;
+  width: max-content;
+}

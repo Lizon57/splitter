@@ -1,0 +1,39 @@
+@import "../../../assets/styles/vars/color";
+
+.joinUsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-block-end: 130px;
+
+  .callToAction {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    p {
+      color: $white-primary;
+      font-size: 40px;
+      line-height: 62px;
+      max-width: 720px;
+    }
+  }
+
+  .imagesContainer {
+    position: relative;
+
+    .primary {
+      position: relative;
+      right: 200px;
+      z-index: 5;
+    }
+
+    .secondary {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
+}

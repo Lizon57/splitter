@@ -7,6 +7,7 @@ import { AppFooter } from './cmps/app-footer/AppFooter'
 import { AppHero } from './cmps/home/app-hero/AppHero'
 import { OurAdvantages } from './cmps/home/our-advantages/OurAdvantages'
 import { NewReleases } from './cmps/home/new-releases/NewReleases'
+import { JoinUs } from './cmps/home/join-us/JoinUs'
 
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
         <AppHero />
         <OurAdvantages />
         <NewReleases />
+        <JoinUs />
       </main>
 
       <AppFooter />
