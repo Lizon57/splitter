@@ -1,0 +1,24 @@
+.ourAdvantagePreviewContainer {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 300px;
+
+  img {
+    margin-block-end: 30px;
+    width: max-content;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-block-end: 15px;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 33.6px;
+    max-width: 352px;
+  }
+}

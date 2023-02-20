@@ -2,6 +2,7 @@
 
 .layoutContainer {
   @include app-layout-grid;
+  overflow: hidden;
 
   & > section {
     grid-column: 2/3;
