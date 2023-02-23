@@ -1,5 +1,5 @@
 import styles from "./AdvantagePreview.module.scss"
-import { Advantage } from "../../../models/advantage"
+import { Advantage } from "../../../models/Advantage"
 
 
 export const AdvantagePreview = ({ advantage }: Props) => {

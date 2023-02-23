@@ -1,4 +1,4 @@
-import { Advantage } from "../../../models/advantage"
+import { Advantage } from "../../../models/Advantage"
 import { AdvantagePreview } from "./AdvantagePreview"
 
 

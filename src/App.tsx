@@ -9,6 +9,7 @@ import { OurAdvantages } from './cmps/home/our-advantages/OurAdvantages'
 import { NewReleases } from './cmps/home/new-releases/NewReleases'
 import { JoinUs } from './cmps/home/join-us/JoinUs'
 import { ContactUs } from './cmps/home/contact-us/ContactUs'
+import { ImageSlider } from './cmps/home/image-slider/ImageSlider'
 
 
 export const App = () => {
@@ -20,6 +21,7 @@ export const App = () => {
         <AppHero />
         <OurAdvantages />
         <NewReleases />
+        <ImageSlider />
         <JoinUs />
         <ContactUs />
       </main>

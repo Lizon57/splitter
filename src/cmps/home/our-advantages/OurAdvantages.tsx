@@ -1,5 +1,5 @@
 import styles from "./OurAdvantage.module.scss"
-import { Advantage } from "../../../models/advantage"
+import { Advantage } from "../../../models/Advantage"
 import { AdvantagesList } from "./AdvantagesList"
 
 import simplicityIcon from "../../../assets/images/layout/our-advantages-simplicity.svg"
