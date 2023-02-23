@@ -25,7 +25,6 @@ export const AppHero = () => {
                         className={styles.circleText}
                         centerSvg={arrow}
                         squareSize={216}
-                        radiusSize={90}
                     />
                 </span>
             </div>

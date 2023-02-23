@@ -1,7 +1,7 @@
 import styles from "./CircleText.module.scss"
 
 
-export const CircleText = ({ text, className, centerSvg, squareSize, radiusSize }: Props) => {
+export const CircleText = ({ text, className, centerSvg, squareSize }: Props) => {
     return (
         <span className={styles.wrapper}>
             <svg viewBox={`0 0 ${squareSize} ${squareSize}`} width={squareSize} height={squareSize} className={className}>
@@ -17,8 +17,7 @@ export const CircleText = ({ text, className, centerSvg, squareSize, radiusSize 
 
 type Props = {
     text: string
-    className: string
+    className?: string
     centerSvg: string
     squareSize: number
-    radiusSize: number
 }
